@@ -11,6 +11,8 @@ body {
   background-color: hsl(229, 57%, 11%);
   position: relative;
   color: white;
+  margin: 0;
+  text-align:center;
 }
 
 img {
