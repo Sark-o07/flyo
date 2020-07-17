@@ -14,21 +14,32 @@
 </head>
 
 <body>
-  <div class="right-container">
-<p>You’ve used 815 GB of your storage
+  <div class="main">
 
-185 GB Left
+    <div class="card left-container">
 
-0 GB
-1000 GB</p>
-  </div>
-  <div class="left-container">
-<img class="icons-" src="images/logo.svg" alt="">
-<img class="icons"src="images/icon-document.svg" alt="">
-<img class="icons"src="images/icon-folder.svg" alt="">
-<img class="icons"src="images/icon-upload.svg" alt="">
-  </div>
-  <img src="images/bg-desktop.png" alt="">
+      <div class="logo-row">
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+      </div>
+      <div class="icon-row">
+        <div class="icon-bg"><a href="#"><img src="images/icon-document.svg" alt="icon-document"></a></div>
+        <div class="icon-bg"><a href="#"><img src="images/icon-folder.svg" alt="icon-folder"></a></div>
+        <div class="icon-bg"><a href="#"><img src="images/icon-upload.svg" alt="icon-upload"></a></div>
+      </div>
+
+    </div>
+
+    <div class="card right-container">
+         <p class="message">You’ve used <span><strong>815 GB</strong></span> of your storage</p>
+          <p class="notification">185<span>gb left</span></p>
+          <progress class="bar" value="815" max="1000"></progress>
+          <p class="min storage">0GB</p>
+          <p class="max storage">1000GB</p>
+
+        </div>
+      </div>
+
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
