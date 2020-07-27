@@ -57,7 +57,7 @@ body {
     justify-content: center;
 }
 .right-container{
-  width: 50%;
+  width: 40%;
   padding: 2em 2em 1em;
   position: relative;
   top: 12px;
@@ -155,5 +155,57 @@ body {
   color: hsl( 228, 45%, 44%);
 }
 
+@media only screen and (max-width: 900px) {
+  .notification {
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+  .main {
+    flex-direction: column;
+    width: 80%;
+  }
+  .card {
+    max-width: 25em;
+    width: 80%;
+  }
+  .card-bar {
+    padding-bottom: 3em;
+  }
+  .bar[value]::after {
+    left: 76.5%;
+  }
+  .storage {
+    bottom: 2.5em;
+  }
+  .message {
+    font-size: 1.4em;
+  }
+  .notification {
+    box-sizing: border-box;
+    top: unset;
+    bottom: -1em;
+    right: 25%;
+    width: 50%;
+    border-radius: 0.2em;
+  }
+  .notification::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 20em;
+  }
+  .message {
+    font-size: 1.2em;
+  }
+}
 
 
