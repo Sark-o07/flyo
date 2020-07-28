@@ -187,12 +187,14 @@ body {
     bottom: 1em;
   }
   .message {
-    font-size: 10px;
+    font-size: 6px;
+    margin: 0;
+    font-weight:lighter;
   }
   .notification {
     box-sizing: border-box;
     top: unset;
-    bottom: 40px;
+    bottom: 1px;
     right: 25%;
     width: 50%;
     border-radius: 0.2em;
