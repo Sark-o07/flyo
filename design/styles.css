@@ -184,15 +184,15 @@ body {
     left: 76.5%;
   }
   .storage {
-    bottom: 4em;
+    bottom: 1em;
   }
   .message {
-    font-size: 0.9em;
+    font-size: 10px;
   }
   .notification {
     box-sizing: border-box;
     top: unset;
-    bottom: 10px;
+    bottom: 40px;
     right: 25%;
     width: 50%;
     border-radius: 0.2em;
