@@ -180,6 +180,8 @@ body {
   .left-container {
     padding-top: 4em;
   }
+  .message { width: 100%;
+  }
   .bar[value]::after {
     left: 76.5%;
   }
@@ -191,7 +193,7 @@ body {
   .notification {
     box-sizing: border-box;
     top: unset;
-    bottom: -10px;
+    bottom: -30px;
     right: 25%;
     width: 50%;
     border-radius: 0.2em;
