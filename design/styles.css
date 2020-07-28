@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     background-size: cover;
     background-position: center;
@@ -193,7 +193,7 @@ body {
   .notification {
     box-sizing: border-box;
     top: unset;
-    bottom: -30px;
+    bottom: -2em;
     right: 25%;
     width: 50%;
     border-radius: 0.2em;
