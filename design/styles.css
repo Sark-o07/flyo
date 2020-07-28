@@ -189,12 +189,12 @@ body {
     bottom: 1em;
   }
   
-  }
+  
   .notification {
     box-sizing: border-box;
     top: unset;
     bottom: -1em;
-    right: 25%;
+    right: 15%;
     width: 50%;
     border-radius: 0.2em;
   }
