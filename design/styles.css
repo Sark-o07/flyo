@@ -174,22 +174,25 @@ body {
     max-width: 25em;
     width: 80%;
   }
-  .card-bar {
+  .right-container {
     padding-bottom: 3em;
+  }
+  .left-container {
+    padding-top: 4em;
   }
   .bar[value]::after {
     left: 76.5%;
   }
   .storage {
-    bottom: 2.5em;
+    bottom: 4em;
   }
   .message {
-    font-size: 1.4em;
+    font-size: 0.9em;
   }
   .notification {
     box-sizing: border-box;
     top: unset;
-    bottom: -1em;
+    bottom: 10px;
     right: 25%;
     width: 50%;
     border-radius: 0.2em;
