@@ -183,9 +183,7 @@ body {
   .message { width: 100%; 
     font-size: .9em;
   }
-  .bar[value]::after {
-    left: 76.5%;
-  }
+  
   .storage {
     bottom: 1em;
   }
